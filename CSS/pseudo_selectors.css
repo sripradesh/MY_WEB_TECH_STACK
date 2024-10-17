@@ -1,0 +1,24 @@
+.p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p::first-letter {
+    color: orange;
+    font-size: large;
+}
+
+h4::first-line{
+    color: orange;
+}
+
+input::placeholder{
+    color: greenyellow;
+}
+
+p::before{
+    content: "Introduction:";
+}
