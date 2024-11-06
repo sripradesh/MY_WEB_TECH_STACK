@@ -7,10 +7,10 @@ console.log(a); // print function
 let b; // declare
 b = 30; // initialisation
 b = "hi"; // re initialisation
-// let b = true; // !re declare
+// let b = true; // ! re declare
 console.log(b); // print function
 
 const c = 100;
 // const c = "b"; // ! re  declare
-c = "hi"; // ! re initialisation
+// c = "hi"; // ! re initialisation
 console.log(c); // print function
