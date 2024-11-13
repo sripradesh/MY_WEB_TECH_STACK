@@ -19,15 +19,15 @@ a.shift()
 a.shift();
 console.log(a);
 
-// SLICE is used to removeing element  we can give index number as a value
+// SLICE is used to displaying selected values, we can give index number as a value
 
 let b = a.slice(1,4);
 console.log(b);
 
-
+// SPLICE is used to removeing element, we can give index number as a value
 
 a.splice(1,2,"hi","h2","h3");
-a.splice(1,0);
+a.splice(1,3);
 console.log(a);
 
 
