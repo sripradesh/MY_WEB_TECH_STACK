@@ -5,3 +5,4 @@ function add(a,b){
 
 let total = add(345,34);
 console.log(total);
+
