@@ -3,6 +3,6 @@ function add(a,b){
     return c;
 }
 
-let total = add(345,34);
-console.log(total);
+let sum = add(345,34);
+console.log(sum);
 
