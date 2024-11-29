@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 2rem;
+    width: 4rem;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 3px;
+}
