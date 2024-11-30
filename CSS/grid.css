@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav content sidebar"
+    "footer footer footer";
+  grid-template-rows: 50px 200px 50px;
+  grid-template-columns: 150px 1fr 150px;
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightblue;
+}
+.nav {
+  grid-area: nav;
+  background-color: lightgreen;
+}
+.content {
+  grid-area: content;
+  background-color: lightcoral;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightgoldenrodyellow;
+}
+.footer {
+  grid-area: footer;
+  background-color: lightgray;
+}
