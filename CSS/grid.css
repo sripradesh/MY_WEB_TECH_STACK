@@ -1,12 +1,12 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header header"
-    "nav content sidebar"
-    "footer footer footer";
-  grid-template-rows: 50px 200px 50px;
-  grid-template-columns: 150px 1fr 150px;
-  gap: 10px;
+    "header header header header"
+    "nav content article sidebar"
+    "footer footer footer footer";
+  grid-template-rows: 50px 200px  50px;              /* changing rows(height) size of (header nav...sidebar footer) so taking 3 values*/
+  grid-template-columns: 1fr 1fr 1fr 200px;          /* changing coloums size of (nav content article silebar) so taking 4 values*/
+  gap: 10px;                                         /* leave space for each element */
 }
 
 .header {
@@ -20,6 +20,11 @@
 .content {
   grid-area: content;
   background-color: lightcoral;
+}
+.article{
+  grid-area: article;
+  background-color: black;
+  color: white;
 }
 .sidebar {
   grid-area: sidebar;
